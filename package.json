@@ -1,0 +1,17 @@
+{
+  "name": "arxiv-mcp-vendored",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'This is a Python-based product wrapped by launch.sh; no Bun dev server exists.'",
+    "test": "echo 'No Bun tests defined.'",
+    "typecheck": "echo 'No TypeScript types defined.'",
+    "lint": "echo 'No Biome linting defined.'",
+    "fmt": "echo 'No Biome formatting defined.'",
+    "build": "echo 'No Bun build step defined.'",
+    "postinstall": "echo 'Python venv setup required. Run: python3 -m venv .venv && ./venv/bin/uv pip install -r requirements.txt'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "type": "module"
+}
